@@ -7,9 +7,9 @@ You can read the post [here]().
 
 - Install and Initialize Bit: `npm install bit-bin -g`
 - Initialize Bit workspace: `bit init`
-- Track the components: `bit add src/components/*`
-- Import the relevant compiler: `bit import bit.envs/compilers/react-typescript -c`
-- Build the components in an isolated environment: `bit build` 
+- Track all the components: `bit add src/components/*`
+- Import the relevant compiler: `bit import bit.envs/compilers/react-typescript --compiler`
+- Build all the components in an isolated environment: `bit build` 
 
 ### 🚀 Export the components to bit.dev so they can be easily shared between projects
 
